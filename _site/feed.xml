@@ -1,40 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>From ChromeDome to your dome.</title>
+    <description>Lessons learned while trying to improve my own life. I fix tech, I break tech I build tech, I teach tech. Whatever it takes. InfoSec, coding, hacking, WebAppSec,  micro-electronics, ham radio, teaching. If it isn&#39;t here, I won&#39;t  remember it.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Jan 2016 03:02:02 +0000</pubDate>
-    <lastBuildDate>Mon, 18 Jan 2016 03:02:02 +0000</lastBuildDate>
+    <link>http://robie1373.github.io/</link>
+    <atom:link href="http://robie1373.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 Jan 2016 19:21:47 +0000</pubDate>
+    <lastBuildDate>Mon, 18 Jan 2016 19:21:47 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Reducing local footprint</title>
+        <description>&lt;h1 id=&quot;using-the-cloud-to-make-cheaper-laptops-viable&quot;&gt;Using the cloud to make cheaper laptops viable&lt;/h1&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h2 id=&quot;the-laptop&quot;&gt;the laptop&lt;/h2&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;The Ideal laptop has high quality intrinsic physical characteristics. That is to say the things which software can’t change. Keyboard, trackpad, screen. The things which interface with the fleshy parts of the user.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;My goal is to reduce the cost of the laptop as much as possible (so I can quit buying MBP class hardware). There is a huge delta in price between an MBP and a low to midrange Chromebook. With that kind of budget I even can even afford to allocate some budget to VPS, cloud storage, or services which supplant the beefiness of the powerful laptop.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;storage&quot;&gt;storage&lt;/h2&gt;
 
+&lt;p&gt;This experiment puts a lot of reliance on the cloud services being always available. Or at least available all the time I need them. There is a difference.&lt;/p&gt;
+
+&lt;p&gt;On the storage front I may consider hedging somewhat and using some SAN storage at home to backup / cache cloud content. Honestly, that’s just prudent. However, it does change the cost calculus of the experiment somewhat. That said, a large percentage of the target audience already runs some sort of storage solution.&lt;/p&gt;
+
+&lt;h2 id=&quot;local-apps---containers&quot;&gt;local apps -&amp;gt; containers&lt;/h2&gt;
+
+&lt;p&gt;Here is the part that I feel has really enabled this experiment. There are some apps that just need to be local. I have never been able to run a machine without installing a few hundred things regardless of what cloud-thingies I am running.&lt;/p&gt;
+
+&lt;p&gt;That also means anytime I want to switch machines (whether for a conference, travel, repairs, upgrade, whatever) I have to spend the first 100 hours setting it up.&lt;/p&gt;
+
+&lt;p&gt;Some tools exist to streamline the process like &lt;a href=&quot;https://github.com/lra/mackup&quot;&gt;Mackup&lt;/a&gt; and &lt;a href=&quot;https://github.com/EvanPurkhiser/dots&quot;&gt;dots&lt;/a&gt;. I’ve tried them and they are great in their way. I never keep my environment up to date with them, though, so the benefit decreases as time increases. That’s me, not them I realize. There is a good chance that they will play a part in this experiment eventually, or things like them anyway.&lt;/p&gt;
+
+&lt;p&gt;I have recently started to set up containers for those tools I find myself reaching for often, especially the ones that are a PITA to install on a normal machine. Sometimes I have to do my job on a windows box too. At times like that the containers are absolutely critical.&lt;/p&gt;
+
+&lt;p&gt;I do a lot of code fumbling in a bunch of languages too. I don’t ever want to have to try to run a language I like in windows again. Those have to go into containers or get offloaded to the cloud.&lt;/p&gt;
+
+&lt;h2 id=&quot;local-apps-to-web-apps&quot;&gt;local apps to web apps&lt;/h2&gt;
+
+&lt;p&gt;Not all apps need to be / can be / should be run in containers. Some of them will be replaced with the web version. Email is the classic example. Nothing new here. Just one of the tools that make the experiment seem feasible.&lt;/p&gt;
+
+&lt;h2 id=&quot;local-apps-to-aws-et-al&quot;&gt;local apps to AWS et al&lt;/h2&gt;
+
+&lt;p&gt;This is the second piece of the puzzle that has changed recently. Cloud compute resources have gotten &lt;em&gt;cheap&lt;/em&gt;. Most of my development has already moved to VPS type providers. I set up a reasonably sized host in AWS and have spent the time setting up all my tools there. I have moved to VIM for an editor. (This is not a polemic statement. Use emacs if you want to, just don’t bother me about it). One of the main reasons I did that was so I could run my editor-of-choice over ssh. That ought to remove the last reason I used to have for relapsing into ‘local dev’ habits.&lt;/p&gt;
+
+&lt;p&gt;I keep many of my dotfiles in github as well as my .vim. That’s not strictly necessary if I am strict about using the AWS box. I’m not sure I need to chisel that rule into the stone, though. I’m going to see what costs and benefits there are to being flexible about where code gets written or edited. The rule I am likely to enforce early on is that no development environments get installed locally. I seem to have a problem with that so I think its cold turkey.&lt;/p&gt;
+
+&lt;h2 id=&quot;wrap-up&quot;&gt;wrap up&lt;/h2&gt;
+
+&lt;p&gt;So that’s the idea. I’m going to be keeping notes and stuff here so I don’t forget how to start by the time I finish. Again. Like I always do. If this helps you then super!&lt;/p&gt;
 </description>
         <pubDate>Mon, 18 Jan 2016 02:39:46 +0000</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2016/01/18/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/01/18/welcome-to-jekyll.html</guid>
+        <link>http://robie1373.github.io/robie,/hacking,/infrastructure/2016/01/18/reducing_local_footprint.html</link>
+        <guid isPermaLink="true">http://robie1373.github.io/robie,/hacking,/infrastructure/2016/01/18/reducing_local_footprint.html</guid>
         
         
-        <category>jekyll</category>
+        <category>Robie,</category>
         
-        <category>update</category>
+        <category>hacking,</category>
+        
+        <category>infrastructure</category>
+        
+      </item>
+    
+      <item>
+        <title>Installing Docker on chromebook</title>
+        <description>&lt;h1 id=&quot;what-was-not-apparent-to-me&quot;&gt;What was not apparent to me…&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Apt-get install docker.io
+# [output]
+# sudo docker -d -D // starts the docker deamon. Don&#39;t even bother trying
+		// to use service... yet. I think that can be used to make it run as an actual daemon.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Mon, 18 Jan 2016 00:00:00 +0000</pubDate>
+        <link>http://robie1373.github.io/robie,/hacking,/infrastructure/2016/01/18/setting-up-docker-on-chromebook.html</link>
+        <guid isPermaLink="true">http://robie1373.github.io/robie,/hacking,/infrastructure/2016/01/18/setting-up-docker-on-chromebook.html</guid>
+        
+        
+        <category>Robie,</category>
+        
+        <category>hacking,</category>
+        
+        <category>infrastructure</category>
         
       </item>
     
