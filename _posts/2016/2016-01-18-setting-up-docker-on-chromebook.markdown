@@ -10,7 +10,8 @@ published: false
 
     # Apt-get install docker.io
     # [output]
-    # sudo docker -d -D // starts the docker deamon. Don't even bother trying
-			// to use service... yet. I think that can be used to make it run as an actual daemon.
+    # sudo docker -d -D 
+    
+The last line starts the docker deamon. Don't even bother trying to use service... yet. I think that can be used to make it run as an actual daemon.
 
-
+I'm encountering some issues building an image on the CB. Preliminary investigations indicate it may be related to the kernel configuration (which I haven't found yet). 

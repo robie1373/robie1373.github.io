@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Reducing local footprint"
-date:  2016-01-18 02:39:46 +0000
-categories: Robie, hacking, infrastructure 
+date:  2016-01-17
+categories: hacking, infrastructure 
 ---
 
 # Using the cloud to make cheaper laptops viable
