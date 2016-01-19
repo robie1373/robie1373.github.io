@@ -3,7 +3,6 @@ layout: post
 title:  "RLF: locally installed software"
 date:  2016-01-18 
 categories: Robie, hacking, infrastructure
-published: false
 ---
 
 # While the goal is to have almost nothing installed on the local machine, there are a few things that are going to be required. For now at least. This is a running list of things that I'm installing locally and why.

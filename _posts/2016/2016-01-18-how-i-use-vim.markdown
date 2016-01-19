@@ -3,7 +3,6 @@ layout: post
 title:  "How I use vim"
 date:  2016-01-18 
 categories: Robie, hacking
-published: false
 ---
 
 # How I use Vim
