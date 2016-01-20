@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Software with good cloud solutions - RFL"
+title:  "RFL: Software with good cloud solutions"
 date:  2016-01-19
 categories: hacking, infrastructure 
 ---
