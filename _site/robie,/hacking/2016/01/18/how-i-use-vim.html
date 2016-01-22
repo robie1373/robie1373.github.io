@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>From ChromeDome to your dome.</title>
-  <meta name="description" content="Lessons learned while trying to improve my own life. I fix tech, I break tech I build tech, I teach tech. Whatever it takes. InfoSec, coding, hacking, WebAppSec,  micro-electronics, ham radio, teaching. If it isn't here, I won't  remember it.
-">
+  <title>How I use vim</title>
+  <meta name="description" content="How I use Vim">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://robie1373.github.io/">
+  <link rel="canonical" href="http://robie1373.github.io/robie,/hacking/2016/01/18/how-i-use-vim.html">
   <link rel="alternate" type="application/rss+xml" title="From ChromeDome to your dome." href="http://robie1373.github.io/feed.xml">
 </head>
 
@@ -55,81 +54,33 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">How I use vim</h1>
+    <p class="post-meta"><time datetime="2016-01-18T00:00:00+00:00" itemprop="datePublished">Jan 18, 2016</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jan 19, 2016</span>
+  <div class="post-content" itemprop="articleBody">
+    <h1 id="how-i-use-vim">How I use Vim</h1>
 
-        <h2>
-          <a class="post-link" href="/hacking,/network/2016/01/19/stunnel-for-ssh.html">Stunnel SSH for fun or profit.</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 19, 2016</span>
+<p>I keep my .vim in github. I use <a href="https://github.com/tpope/vim-pathogen">pathogen</a> to handle plugins, which I’m trying to keep to a minimum.</p>
 
-        <h2>
-          <a class="post-link" href="/hacking,/infrastructure/2016/01/19/RLF-cloud-solutions.html">RFL: Software with good cloud solutions</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 18, 2016</span>
+<p>When I get to a new box I</p>
 
-        <h2>
-          <a class="post-link" href="/hacking,/infrastructure/2016/01/18/vps-hardening.html">Hardening VPS</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 18, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/robie,/hacking,/infrastructure/2016/01/18/setting-up-docker-on-chromebook.html">Installing Docker on chromebook</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 18, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/robie,/hacking/2016/01/18/how-i-use-vim.html">How I use vim</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 18, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/robie,/hacking/2016/01/18/crouton-to-enable-RLF.html">Using crouton to enble the RLF process</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 18, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/robie,/hacking,/infrastructure/2016/01/18/RLF-locally-installed-software.html">RLF: locally installed software</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 17, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/hacking,/infrastructure/2016/01/17/reducing_local_footprint.html">Reducing local footprint</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
+<div class="highlighter-rouge"><pre class="highlight"><code>localhost:~ git clone https://github.com/robie1373/vim
+localhost:~ cd vim/bundle
+localhost:~ for rep in `cat ../packages_list.txt` ; do git clone $rep ; done
+localhost:~ cd .. ; ln -s vimrc ~/.vimrc
+</code></pre>
 </div>
+
+<p>Then I just have to remember to git pull from time to time and push any changes I make back up to GH. I have been super happy with this arrangement since I got those habits built up.</p>
+
+
+  </div>
+
+</article>
 
       </div>
     </div>

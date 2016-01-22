@@ -6,9 +6,207 @@
 </description>
     <link>http://robie1373.github.io/</link>
     <atom:link href="http://robie1373.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Jan 2016 19:21:47 +0000</pubDate>
-    <lastBuildDate>Mon, 18 Jan 2016 19:21:47 +0000</lastBuildDate>
+    <pubDate>Thu, 21 Jan 2016 23:22:20 +0000</pubDate>
+    <lastBuildDate>Thu, 21 Jan 2016 23:22:20 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Stunnel SSH for fun or profit.</title>
+        <description>&lt;h1 id=&quot;stunnel-ssh-for-fun-or-profit-but-not-both&quot;&gt;Stunnel SSH for fun or profit. (but not both)&lt;/h1&gt;
+
+&lt;p&gt;There is a decent writeup for getting set up on &lt;a href=&quot;http://www.unixmen.com/tunnel-ssh0connections-ssl-using-stunnel-debian-7-ubuntu-13-10/&quot;&gt;this&lt;/a&gt; site.&lt;/p&gt;
+
+&lt;p&gt;I’m using OS X for one end of my experiment so there are some differences. Brew only seems to have stunnel3 for example while they are using 4. There are some differences in configuration at the least.&lt;/p&gt;
+
+&lt;p&gt;After some fiddling (make sure you don’t copy the wrong cert to the server…) the test works. As expected, the thing resetting ssh was no match for SSL tunneling. Go team proxy!&lt;/p&gt;
+
+&lt;p&gt;Here is what I had to do differently from the guide above:&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 19 Jan 2016 00:00:00 +0000</pubDate>
+        <link>http://robie1373.github.io/hacking,/network/2016/01/19/stunnel-for-ssh.html</link>
+        <guid isPermaLink="true">http://robie1373.github.io/hacking,/network/2016/01/19/stunnel-for-ssh.html</guid>
+        
+        
+        <category>hacking,</category>
+        
+        <category>network</category>
+        
+      </item>
+    
+      <item>
+        <title>RFL: Software with good cloud solutions</title>
+        <description>&lt;h1 id=&quot;software-i-used-to-run-locally-that-i-can-now-run-in-the-cloud&quot;&gt;Software I used to run locally that I can now run in the cloud&lt;/h1&gt;
+
+&lt;p&gt;Hosted solutions are a pretty good compromise for this project. It pretty much depends on solid Intertube connection all the time, so the concern of working offline is basically ignored.&lt;/p&gt;
+
+&lt;p&gt;Here are the tools I am replacing and what they are being replaced with.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Tool&lt;/th&gt;
+      &lt;th&gt;Cloud replacement&lt;/th&gt;
+      &lt;th&gt;Cost&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arduino&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://codebender.cc/&quot;&gt;Codebender&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Free&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Storage&lt;/td&gt;
+      &lt;td&gt;Google Drive&lt;/td&gt;
+      &lt;td&gt;Free for 2 years&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Tue, 19 Jan 2016 00:00:00 +0000</pubDate>
+        <link>http://robie1373.github.io/hacking,/infrastructure/2016/01/19/RLF-cloud-solutions.html</link>
+        <guid isPermaLink="true">http://robie1373.github.io/hacking,/infrastructure/2016/01/19/RLF-cloud-solutions.html</guid>
+        
+        
+        <category>hacking,</category>
+        
+        <category>infrastructure</category>
+        
+      </item>
+    
+      <item>
+        <title>Hardening VPS</title>
+        <description>&lt;h1 id=&quot;hardening-vps-hosts&quot;&gt;Hardening VPS hosts.&lt;/h1&gt;
+
+&lt;p&gt;Now that I’m using all kinds of VPS hosts, I want to streamline the hardening 
+process. For now, the folks at Digital Ocean have some very good checklists
+&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Follow up with &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-ubuntu-14-04-servers&quot;&gt;this one&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Jan 2016 00:00:00 +0000</pubDate>
+        <link>http://robie1373.github.io/hacking,/infrastructure/2016/01/18/vps-hardening.html</link>
+        <guid isPermaLink="true">http://robie1373.github.io/hacking,/infrastructure/2016/01/18/vps-hardening.html</guid>
+        
+        
+        <category>hacking,</category>
+        
+        <category>infrastructure</category>
+        
+      </item>
+    
+      <item>
+        <title>Installing Docker on chromebook</title>
+        <description>&lt;h1 id=&quot;what-was-not-apparent-to-me&quot;&gt;What was not apparent to me…&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Apt-get install docker.io
+# [output]
+# sudo docker -d -D 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The last line starts the docker deamon. Don’t even bother trying to use service… yet. I think that can be used to make it run as an actual daemon.&lt;/p&gt;
+
+&lt;p&gt;I’m encountering some issues building an image on the CB. Preliminary investigations indicate it may be related to the kernel configuration (which I haven’t found yet).&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Jan 2016 00:00:00 +0000</pubDate>
+        <link>http://robie1373.github.io/robie,/hacking,/infrastructure/2016/01/18/setting-up-docker-on-chromebook.html</link>
+        <guid isPermaLink="true">http://robie1373.github.io/robie,/hacking,/infrastructure/2016/01/18/setting-up-docker-on-chromebook.html</guid>
+        
+        
+        <category>Robie,</category>
+        
+        <category>hacking,</category>
+        
+        <category>infrastructure</category>
+        
+      </item>
+    
+      <item>
+        <title>How I use vim</title>
+        <description>&lt;h1 id=&quot;how-i-use-vim&quot;&gt;How I use Vim&lt;/h1&gt;
+
+&lt;p&gt;I keep my .vim in github. I use &lt;a href=&quot;https://github.com/tpope/vim-pathogen&quot;&gt;pathogen&lt;/a&gt; to handle plugins, which I’m trying to keep to a minimum.&lt;/p&gt;
+
+&lt;p&gt;When I get to a new box I&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;localhost:~ git clone https://github.com/robie1373/vim
+localhost:~ cd vim/bundle
+localhost:~ for rep in `cat ../packages_list.txt` ; do git clone $rep ; done
+localhost:~ cd .. ; ln -s vimrc ~/.vimrc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then I just have to remember to git pull from time to time and push any changes I make back up to GH. I have been super happy with this arrangement since I got those habits built up.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 18 Jan 2016 00:00:00 +0000</pubDate>
+        <link>http://robie1373.github.io/robie,/hacking/2016/01/18/how-i-use-vim.html</link>
+        <guid isPermaLink="true">http://robie1373.github.io/robie,/hacking/2016/01/18/how-i-use-vim.html</guid>
+        
+        
+        <category>Robie,</category>
+        
+        <category>hacking</category>
+        
+      </item>
+    
+      <item>
+        <title>Using crouton to enble the RLF process</title>
+        <description>&lt;h1 id=&quot;using-crouton-to-enable-the-rlf-process&quot;&gt;Using crouton to enable the RLF process&lt;/h1&gt;
+
+&lt;p&gt;There is lots of info on the tubes about installing crouton. Google that.&lt;/p&gt;
+
+&lt;p&gt;I’m using it because I really need Docker. I think. I can’t see how I’m going to get around the need to do something like nmap locally.&lt;/p&gt;
+
+&lt;p&gt;I think this is a reasonable compromise. It’s way better than trying to run full VMs. Docker seems to do a bang up job with a tiny pile of compute resources so I am hoping it will make the tools I run with it feel snappy even on this light-weight box.&lt;/p&gt;
+
+&lt;p&gt;Also, Docker is fun to use. I am finding some good use for it at work too.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 18 Jan 2016 00:00:00 +0000</pubDate>
+        <link>http://robie1373.github.io/robie,/hacking/2016/01/18/crouton-to-enable-RLF.html</link>
+        <guid isPermaLink="true">http://robie1373.github.io/robie,/hacking/2016/01/18/crouton-to-enable-RLF.html</guid>
+        
+        
+        <category>Robie,</category>
+        
+        <category>hacking</category>
+        
+      </item>
+    
+      <item>
+        <title>RLF: locally installed software</title>
+        <description>&lt;p&gt;last edited&lt;/p&gt;
+
+&lt;h1 id=&quot;while-the-goal-is-to-have-almost-nothing-installed-on-the-local-machine-there-are-a-few-things-that-are-going-to-be-required-for-now-at-least-this-is-a-running-list-of-things-that-im-installing-locally-and-why&quot;&gt;While the goal is to have almost nothing installed on the local machine, there are a few things that are going to be required. For now at least. This is a running list of things that I’m installing locally and why.&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;2016-01-18-setting-up-docker-on-chromebook&quot;&gt;Docker&lt;/a&gt;: Used to abstract away the ugly, dependency ridden, environment polluting and otherwise un-installable junk that I find myself using all the time. Like programming languages and network or security tools.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;2016-01-18-how-i-use-vim&quot;&gt;Vim&lt;/a&gt;: A dude’s got to edit.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;2016-01-18-crouton-to-enable-RLF&quot;&gt;Crouton&lt;/a&gt;: By default the CB doesn’t do Docker. Crouton allows you to run full Ubuntu (or other Linux) alongside ChromeOS. A bit heavy handed, but the best I could come up with.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;other-things-that-take-time-on-the-local-box&quot;&gt;Other things that take time on the local box&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Generate and install ssh keys for various remote hosts.&lt;/li&gt;
+  &lt;li&gt;Chrome Apps for Skype, Dropbox, an IRC. These are just web wrappers, so not really a local app. Also, they sync with the chrome profile.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Mon, 18 Jan 2016 00:00:00 +0000</pubDate>
+        <link>http://robie1373.github.io/robie,/hacking,/infrastructure/2016/01/18/RLF-locally-installed-software.html</link>
+        <guid isPermaLink="true">http://robie1373.github.io/robie,/hacking,/infrastructure/2016/01/18/RLF-locally-installed-software.html</guid>
+        
+        
+        <category>Robie,</category>
+        
+        <category>hacking,</category>
+        
+        <category>infrastructure</category>
+        
+      </item>
     
       <item>
         <title>Reducing local footprint</title>
@@ -52,37 +250,10 @@
 
 &lt;p&gt;So that’s the idea. I’m going to be keeping notes and stuff here so I don’t forget how to start by the time I finish. Again. Like I always do. If this helps you then super!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 18 Jan 2016 02:39:46 +0000</pubDate>
-        <link>http://robie1373.github.io/robie,/hacking,/infrastructure/2016/01/18/reducing_local_footprint.html</link>
-        <guid isPermaLink="true">http://robie1373.github.io/robie,/hacking,/infrastructure/2016/01/18/reducing_local_footprint.html</guid>
+        <pubDate>Sun, 17 Jan 2016 00:00:00 +0000</pubDate>
+        <link>http://robie1373.github.io/hacking,/infrastructure/2016/01/17/reducing_local_footprint.html</link>
+        <guid isPermaLink="true">http://robie1373.github.io/hacking,/infrastructure/2016/01/17/reducing_local_footprint.html</guid>
         
-        
-        <category>Robie,</category>
-        
-        <category>hacking,</category>
-        
-        <category>infrastructure</category>
-        
-      </item>
-    
-      <item>
-        <title>Installing Docker on chromebook</title>
-        <description>&lt;h1 id=&quot;what-was-not-apparent-to-me&quot;&gt;What was not apparent to me…&lt;/h1&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Apt-get install docker.io
-# [output]
-# sudo docker -d -D // starts the docker deamon. Don&#39;t even bother trying
-		// to use service... yet. I think that can be used to make it run as an actual daemon.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-</description>
-        <pubDate>Mon, 18 Jan 2016 00:00:00 +0000</pubDate>
-        <link>http://robie1373.github.io/robie,/hacking,/infrastructure/2016/01/18/setting-up-docker-on-chromebook.html</link>
-        <guid isPermaLink="true">http://robie1373.github.io/robie,/hacking,/infrastructure/2016/01/18/setting-up-docker-on-chromebook.html</guid>
-        
-        
-        <category>Robie,</category>
         
         <category>hacking,</category>
         
