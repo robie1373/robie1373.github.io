@@ -11,6 +11,7 @@ last edited {{ date }}
 1. [Docker](2016-01-18-setting-up-docker-on-chromebook): Used to abstract away the ugly, dependency ridden, environment polluting and otherwise un-installable junk that I find myself using all the time. Like programming languages and network or security tools.
 2. [Vim](2016-01-18-how-i-use-vim): A dude's got to edit.
 3. [Crouton](2016-01-18-crouton-to-enable-RLF): By default the CB doesn't do Docker. Crouton allows you to run full Ubuntu (or other Linux) alongside ChromeOS. A bit heavy handed, but the best I could come up with.
+4. screen: terminal emulator pretty much has to be local. I assume.
 
 ## Other things that take time on the local box
 
