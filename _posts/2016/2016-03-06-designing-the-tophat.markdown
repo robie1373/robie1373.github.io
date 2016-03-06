@@ -44,7 +44,7 @@ Coming soon
 - [ ] Speaker / Buzzer
 - [x] Audio Jack
 - [ ] Slide switch
-- [ ] Tactile switch
+- [x] Tactile switch
 - [ ] Switch IC
 - [ ] Audio Amp
 
