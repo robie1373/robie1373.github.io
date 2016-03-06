@@ -17,7 +17,11 @@ There are plenty of choices for tools to help practive copying (listening to) cw
 
 ## The goal
 
+Coming soon
+
 ## The design
+
+Coming soon
 
 ## The ToDo List
 
