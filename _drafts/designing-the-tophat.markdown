@@ -3,7 +3,6 @@ layout: post
 title:  "Designing the TopHat kit"
 date:  2016-03-06
 categories: hacking, kits
-publish: false
 ---
 
 # Designing the TopHat cw practice kit. Harder that it looks.
@@ -44,3 +43,11 @@ There are plenty of choices for tools to help practive copying (listening to) cw
 - [ ] Tactile switch
 - [ ] Switch IC
 - [ ] Audio Amp
+
+## Lessons learned from alpha build
+
+Coming soon
+
+## Lessons learned from beta build
+
+Coming soon
