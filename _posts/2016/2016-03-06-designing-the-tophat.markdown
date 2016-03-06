@@ -41,7 +41,7 @@ Coming soon
 
 ### libraries to create
 
-- [ ] Speaker / Buzzer
+- [x] Speaker / Buzzer
 - [x] Audio Jack
 - [ ] Slide switch
 - [x] Tactile switch
