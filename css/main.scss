@@ -52,8 +52,9 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 table {
-  border-spacing: collapse;
+  border-collapse: collapse;
 }
+
 td, th {
   background-color: lightblue;
   border: 1px solid #999;
