@@ -24,8 +24,8 @@ While waiting for tubs etc. to arrive - Find flour. I think I would like to work
 
   Day    | Time    | Keep  | Grams Flour     | Grams Water | Temp (F)  | Notes
   -------|---------|-------|-----------------|-------------|-----------|-------
-  5 Sat  | 7 <> 9  | 150   | 400 White, 100 Wheat | 400    | 85        | Target temp after feeding is 78 - 80.
-  n...   | 7 <> 9  | 100    | 400 While, 100 Wheat | 400   | 85 -90 | adust amount retained and/or water temp based on room temp.
+  5 Sat  | 7<>9  | 150   | 400 White, 100 Wheat | 400    | 85        | Target temp after feeding is 78 - 80.
+  n...   | 7<>9  | 100    | 400 While, 100 Wheat | 400   | 85 -90 | adust amount retained and/or water temp based on room temp.
 
 ## Recipies
 
