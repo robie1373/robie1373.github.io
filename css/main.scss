@@ -60,9 +60,9 @@ td, th {
   text-align: left;
 }
 
-//th {
-//  background-color: lightblue;
-//}
+th {
+  background-color: none;
+}
 
 tr:nth-child(even) {
   background-color: lightblue;
