@@ -29,6 +29,8 @@ While waiting for tubs etc. to arrive - Find flour. I think I would like to work
 
 ## Recipies
 
+### Overnight Country Blond
+
   --------------|--------
   __Feed Levain__ | 9:00 AM
   __Mix Final Dough__ | 5:00 PM
@@ -45,11 +47,16 @@ While waiting for tubs etc. to arrive - Find flour. I think I would like to work
 
 ### Final Dough
 
+  * Target final mix temp: 78&deg;
+  * Folds: 3 to 4. 3 in first hour, 4th before bed.
+  * Divide after 3x in volume.
+  * Proof ~ 4hrs until finger dent.
+
   Grams     | %   | Ingredient        | Temp  | Note
   ----------|-----|-------------------|-------|--------
   804       | 90  | White Flour       | Room  | 
   26        | 5   | Whole Wheat Flour | Room  | 
   50        | 5   | Rye Flour         | Room  | 
-  684       | 78  | Water             | 90 - 95 | 
+  684       | 78  | Water             | 90 - 95 | Start with 93&deg;
   22        | 2.2 | Fine Sea Salt     | Room  | 
-  216       | _12_  | Levain            | Room  | 
+  216       | _12_  | _Levain_        | Room  | 
