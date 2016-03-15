@@ -54,6 +54,9 @@ $on-laptop:        800px;
 table {
   border-collapse: collapse;
 }
+table tr td:first-child + td {
+  white-space: nowrap;
+}
 
 td, th {
   border: 1px solid #999;
