@@ -54,6 +54,11 @@ $on-laptop:        800px;
 table {
   border-collapse: collapse;
 }
+
+table tr td:first-child {
+  white-space: nowrap;
+}
+
 table tr td:first-child + td {
   white-space: nowrap;
 }
