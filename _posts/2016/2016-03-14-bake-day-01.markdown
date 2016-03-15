@@ -1,0 +1,56 @@
+---
+layout: post
+title:  Bake Day 01
+date:  2016-03-19
+categories: cooking, bake day
+---
+
+# Bake Day 01
+  Day   | Time  | keep grams | Flour    | Grams Water | Water Temp  | Notes
+  -------|---------|-------|-----------------|-------------|-----------|-------
+  5 Sun  | 7<>9  | 150   | 400 White, 100 Wheat | 400    | 85        | Target temp after feeding is 78 - 80.
+
+## Environment
+
+  * Kitchen Temp:
+  * General Humidity:
+  
+## Recipes
+
+### Overnight Country Blond
+
+  Step          | Scheduled time  | Actual Time
+  --------------|-----------------|------------
+  __Feed Levain__ | 9:00 AM | 
+  __Mix Final Dough__ | 5:00 PM | 
+  __Shape into loaves__ | 8:00 AM | 
+  __Bake__          | Noon  | 
+
+### Levain  
+
+Mix time:
+
+  Grams     | Ingredient  | Temp  | Note
+  ----------|-------------|-------|----------
+  100       | Held levain | Room  | 
+  400       | White Flour | Room  |
+  100       | Whole Wheat Flour | Room | 
+
+### Final Dough
+
+End mix time:
+
+  * Target final mix temp: 78&deg;. Actual Temp:
+  * Folds: 3 / 4. (3 in first hour, 4th before bed.)
+  * Divide after 3x in volume. Time: 
+  * Proof ~ 4hrs until finger dent. Actual proof time:
+  * Bake 475&deg;. Time: 
+
+  Grams     | %   | Ingredient        | Temp  | Note
+  ----------|-----|-------------------|-------|--------
+  804       | 90  | White Flour       | Room  | 
+  26        | 5   | Whole Wheat Flour | Room  | 
+  50        | 5   | Rye Flour         | Room  | 
+  684       | 78  | Water             | 90 - 95 | Actual temp:
+  22        | 2.2 | Fine Sea Salt     | Room  | 
+  216       | _12_  | _Levain_        | Room  | 
