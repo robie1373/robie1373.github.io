@@ -6,16 +6,6 @@ categories: cooking, bake day
 ---
 
 # Making Levain
-  Day   | Time  |  Flour    | Grams Water | Water Temp  | Notes
-  ------|-------|-----------|-------------|-------------|-------
-  Tue   | 2019  | 500 Wheat | 500         | 91.5&deg;   | Final mix temp 88.5&deg;
-
-## Environment
-
-  * Kitchen Temp: 73&deg;
-  * General Humidity: medium
-  
-### Levain  
 
 Mix time: 2015
 
