@@ -8,7 +8,7 @@ categories: cooking, bake day
 # Making Levain
   Day   | Time  |  Flour    | Grams Water | Water Temp  | Notes
   ------|-------|-----------|-------------|-------------|-------
-  Tue  | 2019   | 500 Wheat | 500         | 91.5     | Final mix temp 88.5&deg;
+  Tue   | 2019  | 500 Wheat | 500         | 91.5&deg;   | Final mix temp 88.5&deg;
 
 ## Environment
 
