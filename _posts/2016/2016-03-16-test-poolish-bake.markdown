@@ -12,4 +12,4 @@ line 2 of:
 
 ## Results:
 
-[[https://www.dropbox.com/s/odxpjkeh48f4rwc/2016-03-16%2022.47.16.jpg?dl=0|alt=first-loaf]]
+[[https://www.dropbox.com/s/odxpjkeh48f4rwc/2016-03-16%2022.47.16.jpg?dl=0]]
