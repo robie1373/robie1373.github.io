@@ -7,4 +7,4 @@ categories: baking
 
 # Some factoids about baking that I find useful
 
-* For every 17&degF / 9&degC your room temperature raises or drops, the yeast activity will be doubled or cut in half [source](https://stellaculinary.com/content/three-mother-preferments-and-how-use-them)
+* For every 17 &deg F / 9 &deg C your room temperature raises or drops, the yeast activity will be doubled or cut in half ( [source](https://stellaculinary.com/content/three-mother-preferments-and-how-use-them) )
