@@ -66,8 +66,8 @@ Almond extract | UNK    | 1 TBS     | added to batter at last second
 
 #### Last minute
 
-  * Start heating up the iron on the stove top.
-  * Whip egg whites and granulated sugar to medium peaks.
+  * Start heating up the iron on the stove top. At least 5 minutes on medium heat. 5 of 10 on my stove. This is hot enough to keep the iron working. No need to let it heat back up after each batch. However, you can't leave it sitting on this heat too long or it will burn the next waffle.
+  * Whip egg whites and granulated sugar to medium peaks. I thought I could do this by hand. I suppose it's possible, but I'm not going to do it.
   * Add vanilla and almond extract to batter.
   * Fold in whipped egg whites. Mix 1/4 in quickly to loosen. Fold the rest in gently.
 
@@ -75,6 +75,16 @@ Almond extract | UNK    | 1 TBS     | added to batter at last second
 #### Bake
 
   * Spray iron with non-stick spray
-  * pour 1/4 to 1/3 cup of batter into iron. (Update after trying)
-  * (Maybe) cook on first side for ~2 minutes and flip for ~1 or 2 minutes
-  * (Optional) Whip a cup of whipping cream, 35 grams sugar, 1 tsp vanilla for topping. 
+  * pour 1/3+ cup of batter into iron. 1/3 is just under the capacity of this iron. 1/2 may be a bit over.
+  * Cook on first side for 5 seconds and flip for 3 - 5  minutes. This helps get even browning.
+  * (Optional) Whip a cup of whipping cream, 35 grams sugar, 1 tsp vanilla for topping. (Double optional: add 1 TSP of dark rum or other tasty liqour)
+
+## Results
+
+So this is a lot of work for waffles. I'm not gonna lie. It is so thoroughly worth it, though. The flavor is deep and interesting. They are fluffy and light. I was not able to get a crisp crust on mine. This is probably a combination of iron temp and sugar content in the batter.
+
+Another item of note is how long it takes to bake a batch of these. It takes about 5 minutes per waffle. The single iron is a serious bottle neck. I think it would be pretty easy to manage two of these irons simultaneously. Any more would probably be more work than I'm willing to do. The iron was only $20 so that's not asking much.
+
+I served these to the family with the fresh whipped cream. It was the boozeless version, sadly. I didn't think of that until too late. Each fam member likes waffles a different way. Some like maple syrup, some like honey, some like aunt jemima. Everyone agreed these waffles with this whipped cream was amazing. Maybe even amazeballs. 
+
+Finally, the recipe here makes a lot of waffles. ![Lots of waffles](https://www.dropbox.com/sc/1o1vm1qh451zvii/AACNyABeneFbr_bfYVDewXtQa) It made about 18 - 20 in my case. I ended up freezing 14 of them and throwing a couple of experimental ones away.
