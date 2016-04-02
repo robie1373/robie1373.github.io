@@ -19,7 +19,7 @@ A note on seasoning cast iron. I recently bought a Lodge pro-logic dutch oven fo
 
 Here is the recipe I'm starting with. This is iteration #1
 
-The "Dry" team
+#### The "Dry" team
 
 Ingredient    | grams   | volume    | notes
 --------------|---------|-----------|----------
@@ -31,7 +31,7 @@ Cornstarch    | 85      | 2/3 cup   |
 {Sugar}       | {85}    | {5 TBS}    | I wish I had used honey. Add to the wet team instead.
 Salt          | 25      | 1 TBS      |
 
-The wet team
+#### The wet team
 
 Ingredient    | grams   | volume    | notes
 --------------|---------|-----------|----------
@@ -41,7 +41,7 @@ Buttermilk    | N/A     | 1 cup     | Ditto
 Melted butter | UNK     | 1/2 cup   | 
 Egg yolks     | N/A     | 6         | Whites reserved for next section
 
-The "air" team
+#### The "air" team
 
 Ingredient    | grams   | volume    | notes
 --------------|---------|-----------|----------
