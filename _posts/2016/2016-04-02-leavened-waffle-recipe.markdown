@@ -87,4 +87,4 @@ Another item of note is how long it takes to bake a batch of these. It takes abo
 
 I served these to the family with the fresh whipped cream. It was the boozeless version, sadly. I didn't think of that until too late. Each fam member likes waffles a different way. Some like maple syrup, some like honey, some like aunt jemima. Everyone agreed these waffles with this whipped cream was amazing. Maybe even amazeballs. 
 
-Finally, the recipe here makes a lot of waffles. ![Lots of waffles](https://www.dropbox.com/sc/1o1vm1qh451zvii/AACNyABeneFbr_bfYVDewXtQa&raw=1) It made about 18 - 20 in my case. I ended up freezing 14 of them and throwing a couple of experimental ones away.
+Finally, the recipe here makes a lot of waffles. ![Lots of waffles](https://www.dropbox.com/sc/1o1vm1qh451zvii/AACNyABeneFbr_bfYVDewXtQa?raw=1) It made about 18 - 20 in my case. I ended up freezing 14 of them and throwing a couple of experimental ones away.
