@@ -31,6 +31,7 @@ Cornstarch    | 85      | 2/3 cup   |
 {Sugar}       | {85}    | {5 TBS}    | I wish I had used honey. Add to the wet team instead.
 Salt          | 25      | 1 TBS      |
 
+
 #### The wet team
 
 Ingredient    | grams   | volume    | notes
@@ -40,6 +41,7 @@ Buttermilk    | N/A     | 1 cup     | Ditto
 {Honey}       | {85}    | {5 TBS}   | I will do this next time
 Melted butter | UNK     | 1/2 cup   | 
 Egg yolks     | N/A     | 6         | Whites reserved for next section
+
 
 #### The "air" team
 
